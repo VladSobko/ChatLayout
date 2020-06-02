@@ -6,7 +6,7 @@ export default function App() {
     <View style={styles.container}>
       <View style={styles.msg_them}>
         <Text style={styles.baseText}>
-          Is it possible to send me documents? Thank you very much
+         Tellus volutpat unfortunately. Is it possible to send me the documents? Thank you very much.
         </Text>
       </View>
       <View style={styles.msg_me}>
@@ -45,7 +45,11 @@ const styles = StyleSheet.create({
 
   baseText: {
     color: "white",
-    fontWeight: "bold"
+    fontFamily: "Public Sans",
+    fontStyle: "normal",
+    fontWeight: "normal",
+    fontSize: 12.8,
+    lineHeight: 18
   },
 
   msg_them: {
@@ -70,9 +74,13 @@ const styles = StyleSheet.create({
   },
   msg_readDate: {
     color: "darkslateblue",
-    fontSize: 14,
     alignSelf: "flex-end",
     marginRight: "5%",
-    marginVertical: "-8%"
+    marginVertical: "-6%",
+    fontFamily: "Public Sans",
+    fontStyle: "normal",
+    fontWeight: "300",
+    fontSize: 12.8,
+    lineHeight: 16
   }
 });
