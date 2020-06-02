@@ -6,7 +6,8 @@ export default function App() {
     <View style={styles.container}>
       <View style={styles.msg_them}>
         <Text style={styles.baseText}>
-         Tellus volutpat unfortunately. Is it possible to send me the documents? Thank you very much.
+          Tellus volutpat unfortunately. Is it possible to send me the
+          documents? Thank you very much.
         </Text>
       </View>
       <View style={styles.msg_me}>
@@ -54,7 +55,7 @@ const styles = StyleSheet.create({
 
   msg_them: {
     alignSelf: "flex-end",
-    backgroundColor: "#DDA0DD",
+    backgroundColor: "#CABDFD",
     width: "49%",
     display: "flex",
     padding: 7,
@@ -63,7 +64,7 @@ const styles = StyleSheet.create({
     borderBottomEndRadius: 1
   },
   msg_me: {
-    backgroundColor: "#8A2BE2",
+    backgroundColor: "#9279FE",
     width: "49%",
     display: "flex",
     padding: 7,
