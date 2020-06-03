@@ -33,7 +33,9 @@ export default StyleSheet.create({
   msg_me: {
     backgroundColor: "#9279FE",
     alignSelf: "flex-start",
-    marginLeft: "5%"
+    marginLeft: "5%",
+    borderBottomEndRadius: 9,
+    borderBottomStartRadius: 1,
   },
   msg_readDate: {
     color: "#99879D",
